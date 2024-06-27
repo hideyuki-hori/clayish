@@ -25,13 +25,13 @@ export function Header() {
         clayish
       </h1>
       <span>-</span>
-      <ExternalLink href=''>
+      <ExternalLink href='https://github.com/hideyuki-hori/clayish'>
         <GitHub class={css`
           width: 22px;
           height: 22px;
         `} />
       </ExternalLink>
-      <ExternalLink href=''>
+      <ExternalLink href='https://zenn.dev/hideyuki_hori/articles/c6aa9ae673e5c5'>
         <Zenn />
       </ExternalLink>
       <ExternalLink href=''>
