@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "@cloudflare/workers-types",
+      "vite/client"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "baseUrl": "./",
+    "paths": {
+      "client/*": [
+        "src/client/*"
+      ],
+      "icons/*": [
+        "src/icons/*"
+      ],
+      "server/*": [
+        "src/server/*"
+      ],
+      "models/*": [
+        "src/models/*"
+      ],
+    }
+  }
+}

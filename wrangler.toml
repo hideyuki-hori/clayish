@@ -1,0 +1,14 @@
+compatibility_date = "2023-12-01"
+name = "clayish"
+# pages_build_output_dir = "./client/dist"
+main = "src/index.ts"
+[site]
+bucket = "./client/dist"
+
+[[durable_objects.bindings]]
+class_name = "WebSocketConnection"
+name = "WEBSOCKET"
+
+[[migrations]]
+new_classes = ["WebSocketConnection"]
+tag = "v1" # Should be unique for each entry
