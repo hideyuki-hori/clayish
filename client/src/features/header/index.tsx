@@ -34,7 +34,7 @@ export function Header() {
       <ExternalLink href='https://zenn.dev/hideyuki_hori/articles/c6aa9ae673e5c5'>
         <Zenn />
       </ExternalLink>
-      <ExternalLink href=''>
+      <ExternalLink href='https://dev.to/hideyuki_hori/i-created-a-web-app-with-hono-where-everyone-can-knead-clay-together-4amm'>
         <DevTo />
       </ExternalLink>
     </header>
